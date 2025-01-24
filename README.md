@@ -3,8 +3,6 @@
 **Objective:**  
 Build and automate a scalable, cost-effective ETL pipeline and reporting system on Google Cloud to extract, transform, load, and visualize employee data.  
 
----
-
 ## **Tools and Services Used**
 
 ### **Google Cloud Services:**
@@ -19,7 +17,6 @@ Build and automate a scalable, cost-effective ETL pipeline and reporting system 
 2. **Faker Library:** To generate synthetic employee data.
 3. **Airflow DAGs:** For orchestrating the pipeline.
 
----
 
 ## **Project Workflow**
 
@@ -74,7 +71,6 @@ Automated the pipeline using Cloud Composer, which hosts Airflow DAGs to streaml
      - Data was extracted and uploaded to Cloud Storage.
      - Data Fusion pipeline transformed and loaded the data into BigQuery.
      - Dashboards in Looker Studio were updated with the latest data.
----
 
 ## **Outcome**
 1. **Automated Workflow:**
@@ -88,8 +84,6 @@ Automated the pipeline using Cloud Composer, which hosts Airflow DAGs to streaml
 3. **Error Resilience:**
    - Addressed common pipeline failures with robust error-handling mechanisms.
    - Implemented retries and task dependencies for smooth execution.
-
----
 
 ## **Conclusion**
 This project showcases the implementation and automation of an end-to-end data engineering pipeline using Google Cloud services. The pipeline efficiently handles data extraction, transformation, and loading while enabling dynamic reporting through Looker Studio. With Airflow automation, the solution is scalable and production-ready, making it ideal for real-time data workflows in enterprise settings.
