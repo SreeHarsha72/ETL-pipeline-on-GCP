@@ -17,6 +17,7 @@ Build and automate a scalable, cost-effective ETL pipeline and reporting system 
 2. **Faker Library:** To generate synthetic employee data.
 3. **Airflow DAGs:** For orchestrating the pipeline.
 
+![workflow diagram](img/flowchart.png)
 
 ## **Project Workflow**
 
